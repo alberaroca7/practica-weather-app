@@ -1,0 +1,52 @@
+
+body{
+  padding:30px;
+}
+
+.wrap-app{
+  width:700px;
+  background-color: #ccc;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  padding-bottom:20px;
+}
+
+.weather-today{
+  background-color: rgb(243, 225, 210);
+  width: 95%;
+  padding:20px;
+  box-shadow: 0 0 3px rgb(163, 160, 160);
+  border-radius:10px;
+  margin-bottom: 20px;
+}
+
+.list__country h3{
+margin:10px 0;
+color:green;
+}
+
+.list__country h2{
+  margin:10px 0;
+  color:blue;
+  }
+
+  .App.js{
+      text-align: center;
+  }
+
+  .wrap-tiempo{
+      margin:30px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
