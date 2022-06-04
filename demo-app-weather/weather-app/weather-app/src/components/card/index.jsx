@@ -16,9 +16,11 @@ function Card ({weather}){
         <div>
            <h2>{weather.name}</h2>
            <p>{date}</p>
-           <h1>{(weather.main.temp - 273.15).toFixed(1)}ºC</h1>
+           {/* <h1>{(weather.main.temp - 273.15).toFixed(1)}ºC</h1> */}
          </div>
-      
+
+
+
         </>
 
 
