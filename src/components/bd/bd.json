@@ -1,0 +1,72 @@
+{
+    "status": {
+        "sunny": [
+            {
+                "id": "1",
+                "toogle-color": "#D2EBFE",
+                "weather": "Muy bueno",
+                "title": "Así da gusto",
+                "description": "No te dejes vencer por la pereza y aprovecha este día radiante. ¿Por qué no das una vuelta?",
+                "recommendation": "Un paseo por el Retiro",
+                "icon": "url",
+                "color": "#10A7D5",
+                "weakly-title": "La semana pinta regular.",
+                "weakly-description": "Si empiezas a sentir desánimo, no te agobies: es normal. Un poco de meditación seguro que te ayuda. ¡Adelante!…",
+                "weakly-recommendation": "prepárate para un poco de yoga",
+                "weakly-icon": "icon/figma",
+                "weakly-color": " #10A7D5"
+            }
+        ],
+        "cloudy": [
+            {
+                "id": "2",
+                "toogle-color": " #797598",
+                "weather": "Mal tiempo",
+                "title": "Date un respiro",
+                "description": "¿Sabías que casi el 60% de la gente se siente decaída cuando llueve? Ser consciente, seguro que te ayuda. Y esta peli, también",
+                "recommendation": "Cantando bajo la lluvia",
+                "icon": "url",
+                "color": "#3D3B4F",
+                "weakly-title": "¡Un finde perfecto!",
+                "weakly-description": "Qué bien se siente tener muchas opciones, intenta aprovecharlas al máximo",
+                "weakly-recommendation": "Los mejores hoteles de Madrid",
+                "weakly-icon": "icon/figma",
+                "weakly-color": "#3D3B4F"
+            }
+        ],
+        "rainy": [
+            {
+                "id": "3",
+                "toogle-color": "#AFC6D5",
+                "weather": "Nublado",
+                "title": "Ponte en marcha",
+                "description": "Días como hoy cuesta ponerse en marcha, pero con un poco de esfuerzo, todo se puede. Si además te tomas un buen café, seguro que todo mejora.",
+                "recommendation": "El mejor café en tu zona",
+                "icon": "url",
+                "color": "#4D7893",
+                "weakly-title": "Una semana pasada por agua",
+                "weakly-description": "Nada de cancelar los planes, pilla un paraguas por si acaso y listo",
+                "weakly-recommendation": "Cambia la reserva y cena dentro",
+                "weakly-icon": "icon/figma",
+                "weakly-color": "#4D7893"
+            }
+        ],
+        "snowing": [
+            {
+                "id": "4",
+                "toogle-color": "E1E8EF",
+                "weather": "Nieve",
+                "title": "No te quedes en blanco",
+                "description": "No se puede hacer todo el año, así que aprovecha, sal a coger un buen puñado de nieve ¡y a jugar!.",
+                "recommendation": "El mejor chocolate caliente",
+                "icon": "url",
+                "color": "#819EBC",
+                "weakly-title": "Esto te va a sonar bien",
+                "weakly-description": "Tendremos nieve para rato, aprovecha estos días y ¡adelanta todo lo que tenías pendiente!",
+                "weakly-recommendation": "Prepárate para esquiar",
+                "weakly-icon": "icon/figma",
+                "weakly-color": "#819EBC"
+            }
+        ]
+    }
+}

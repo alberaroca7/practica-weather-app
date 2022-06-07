@@ -1,0 +1,85 @@
+.card-day_container {
+    background-color: #D2EBFE;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.04), 0px 2px 5px rgba(0, 0, 0, 0.13);
+    border-radius: 16px;
+}
+
+.temperature-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.temperature-text_container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.p-temperature {
+    font-weight: bold;
+    font-size: 4rem;
+    color: #10A7D5;
+}
+
+.p-maxYmin {
+    font-size: x-small;
+    font-weight: 500;
+    color: #10A7D5;
+    margin-left: 30px;
+}
+
+.estatus-name {
+    color: #10A7D5;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px 24px 16px;
+    gap: 10px;
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+
+/* css for daily plan card */
+
+.day-plan_container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    color: #10A7D5;
+    margin-bottom: 5px;
+}
+
+.description {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #777777;
+    margin-bottom: 24px;
+}
+
+.plan-div {
+    width: 93%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #10A7D5;
+    color: white;
+    box-shadow: 1.30863px 1.74485px 6.10696px rgba(0, 0, 0, 0.06), 2.61727px 6.97938px 11.7777px rgba(0, 0, 0, 0.08);
+    border-radius: 6.97938px;
+    padding: 12px 18px;
+}
