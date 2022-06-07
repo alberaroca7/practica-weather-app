@@ -34,7 +34,7 @@ export default function DosWeatherWeek({ date }) {
 <h3>{`T Min:${k.main.temp_min.toFixed()} - T Max: ${k.main.temp_max.toFixed()}`}</h3>
     </div>
 :
-console.log('mal')
+console.log('')
 }
 
 {k.dt_txt==='2022-06-06 09:00:00' ?
@@ -47,7 +47,7 @@ console.log('mal')
 <h3>{`T Min:${k.main.temp_min.toFixed()} - T Max: ${k.main.temp_max.toFixed()}`}</h3>
     </div>
 :
-console.log('mal')
+console.log('')
 }
 
 {k.dt_txt==='2022-06-07 09:00:00' ?
@@ -60,7 +60,7 @@ console.log('mal')
 <h3>{`T Min:${k.main.temp_min.toFixed()} - T Max: ${k.main.temp_max.toFixed()}`}</h3>
     </div>
 :
-console.log('mal')
+console.log('')
 }
 
 
