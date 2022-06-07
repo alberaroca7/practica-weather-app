@@ -1,35 +1,52 @@
-import './style.css';
-import { useState } from 'react';
+import React, { useState } from "react";
+import { MdOutlineLocationSearching } from "react-icons/md";
+import { IoIosSearch } from "react-icons/io";
+import "./style.css";
 
-function Form ({ newLocation }) {
+const Form = ({ newLocation }) => {
+  const [city, setCity] = useState("");
 
-    const [city, updateCity] = useState('')
+  const onSubmit = (e) => {
+    e.preventDefault();
 
-    //llamarle de otra forma a la funcion que va dentro del onsubmit
-    function onSubmit(e) {
-        e.preventDefault();
-        console.log({ city });
-        if (city === "" || !city) return;
+    // console.log({city});
+    if (city === "" || !city) return;
+    //  console.log(city)
+    newLocation(city);
+  };
 
-        newLocation(city);
-    }
-
-    return (
-
-        <div className='main-container'>
-
-            <form className='form' onSubmit={onSubmit}>
-
-                <div className='wrap-input-btn'></div>
-                <input type='text' className='input' placeholder='Busca una ciudad' onChange={(e) => updateCity(e.target.value)} />
-                <button className='btn' type='submit'>Buscar</button>
-
-            </form>
-
-
+  return (
+    <div className="container-form">
+      <form onSubmit={onSubmit}>
+        
+          <div className="filter-input__container">
+              <div className = 'input-loc'>
+            <IoIosSearch className="filter-icon"></IoIosSearch>
+            <input
+              type="text"
+              className="filter-task"
+              placeholder="Buscar una Ciudad"
+              onChange={(e) => setCity(e.target.value)}
+            />
+            <button className="btn" type="submit">
+              Buscar
+            </button>
+            </div>
+            <MdOutlineLocationSearching className="geolocation-icon"></MdOutlineLocationSearching>
+          </div>
+          
+          <div className = 'container-loc'>      
+        <div className="toggle-container">
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider round"></span>
+          </label>
+          <span className="text">Hoy 8 de junio</span>
         </div>
-
-    );
-}
+        </div>
+      </form>
+    </div>
+  );
+};
 
 export default Form;
