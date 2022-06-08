@@ -1,12 +1,10 @@
 
 .card-day_container {
     width:95%;
-    background-color: pink;
     display: flex;
     flex-direction: column;
-    margin-top: 10px;    
+    margin-top: 30px;    
     border-radius: 16px;
-    margin-top:200px;
 }
 
 .card-day{
@@ -20,11 +18,17 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.04), 0px 2px 5px rgba(0, 0, 0, 0.13);
 }
 
 .container-card-today{
-    background-color: blueviolet;
+
 }
 
-.prueba{
-    margin-top: 20px;
+.wrap-imame-day{
+
+    height:30px;
+}
+
+.wrap-imame-day img{
+
+    height:30px;
 }
 
 .description-day{
@@ -33,6 +37,7 @@ font-size: 2.5rem;
 padding-left:20px;
 padding-top: 40px;
 height:40%;
+font-family: 'DM Sans';
 }
 
 .weather-today{
@@ -41,11 +46,11 @@ height:40%;
     color:#10A7D5;
     display:flex;
     text-align: center;
+    font-family: 'DM Sans';
 }
 
 .img-temp{
     width: 50%;
-    border:1px solid;
 }
 
 .temperature{
@@ -53,13 +58,12 @@ height:40%;
 }
 
 .temperature h3{
-    font-size:4rem
+    font-size:4rem;
+    font-family: 'DM Sans';
 }
 
 .container-plan-day{
     width:100%;
-    /* background-color: aqua; */
-
     margin-bottom:50px;
 }
 
@@ -68,6 +72,7 @@ height:40%;
     font-size: 1.6rem;
     padding:10px 0;
     font-weight: bold;
+    font-family: 'DM Sans';
 }
 
 .plan-description-day{
@@ -91,6 +96,7 @@ height:40%;
     border-radius: 6.97938px;
     padding: 12px 18px;
 font-weight: bold;
+font-family: 'DM Sans';
 }
 
 
@@ -101,14 +107,13 @@ font-weight: bold;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        background-color: rgb(241, 230, 134);
     }
 
     .container-week-day{
         display:flex;
         width:100%;
-        background-color: pink;
-        justify-content: space-between;
+        justify-content:space-around;
+        padding-top:20px;
     }
 
 
@@ -119,17 +124,84 @@ font-weight: bold;
         box-shadow: 0 0 3px black;
         background-color: cornflowerblue;
         margin: 5px;
-        padding: 10px;
+        padding: 10px 0;
         display:flex;
         flex-direction:column;
         align-items: center;
         justify-content: space-between;
+        border-radius:16px;
     }
+  
 
     .icon-week{
-        height:30px;
+
+    }
+
+    .thunder{
+        background-color: #797598;
     }
 
     .borrador{
         display: none;
+        width:0;
     }
+
+    .container-description-week{
+        width:100%;
+        margin-bottom:30px;
+    }
+
+    .motivation-week-title{
+        color:#10A7D5;
+    font-size: 1.6rem;
+    padding:10px 0;
+    font-weight: bold;
+    font-family: 'DM Sans';
+    }
+
+    .motivation-week-description{
+        font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 17px;
+    color: #777777;
+    margin-bottom: 24px;
+    line-height: 35px;
+    font-family: 'DM Sans';
+    }
+
+    .plan-week{
+        width: 93%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #10A7D5;
+    color: white;
+    box-shadow: 1.30863px 1.74485px 6.10696px rgba(0, 0, 0, 0.06), 2.61727px 6.97938px 11.7777px rgba(0, 0, 0, 0.08);
+    border-radius: 6.97938px;
+    padding: 12px 18px;
+font-weight: bold;
+font-family: 'DM Sans';
+    }
+
+
+    @media  (min-width:1200px){
+
+        .img-temp img{
+            width:35%;
+        }
+
+        .temperature h3, h5{
+font-size:6rem;
+        }
+
+        .temperature h5{
+            font-size:2rem;
+                    }
+
+                    .temperature h1{
+                        font-size:3.5rem;
+                                }
+
+        
+        }

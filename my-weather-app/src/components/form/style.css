@@ -2,7 +2,15 @@
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    background-color: #fff;
+}
+
+.wrap-search{
+    display:flex;
+    align-items: center;
+    width:96%;
+    justify-content: space-between;
+    margin-bottom:20px;
+    padding: 0 10px
 }
 
 .container-form {
@@ -10,11 +18,18 @@
     flex-direction:column;
     justify-content: space-between;
     margin-bottom: 20px;
+    height: 80px;
 }
 
 .container-loc{
-    background-color: pink;
     display:flex;
+    width:100%;
+}
+
+.input-loc{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .filter-input__container {
@@ -25,7 +40,7 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    width: 80%;
+    width: 98%;
 margin-right: 10px;
 }
 
@@ -40,10 +55,9 @@ margin-right: 10px;
 }
 
 .filter-task {
-    position: relative;
-    
+    position: relative;    
     display: inline-block;
-    width: 250px;
+    width: 70%;
     background-color: #F1EFEF;
     color: #A9A9A9;
     border: none;
@@ -76,8 +90,8 @@ margin-right: 10px;
     font-weight: 700;
     font-size: medium;
     line-height: 19px;
-    /* identical to box height, or 74% */
     text-align: right;
+    font-family: 'DM Sans';
 }
 
 /* toggle button Cº and Fº */
@@ -165,4 +179,13 @@ input:checked+.slider:before {
 
 .slider.round:before {
     border-radius: 50%;
+}
+
+@media  (min-width:1200px){
+
+.text{
+    font-size:2rem;
+    margin-right: 35px;
+}
+
 }

@@ -19,6 +19,7 @@ const Form = ({ newLocation }) => {
     <div className="container-form">
       <form onSubmit={onSubmit}>
         
+        <div className="wrap-search">
           <div className="filter-input__container">
               <div className = 'input-loc'>
             <IoIosSearch className="filter-icon"></IoIosSearch>
@@ -31,8 +32,9 @@ const Form = ({ newLocation }) => {
             <button className="btn" type="submit">
               Buscar
             </button>
-            </div>
-            <MdOutlineLocationSearching className="geolocation-icon"></MdOutlineLocationSearching>
+            </div>            
+          </div>
+          <MdOutlineLocationSearching className='geolocation-icon'></MdOutlineLocationSearching>
           </div>
           
           <div className = 'container-loc'>      
